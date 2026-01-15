@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.moto-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.moto {
+  position: relative;
+  width: 900px;   /* AQUI você aumenta ou diminui a moto */
+}
+
+.moto-img {
+  width: 100%;
+  display: block;
+}
+
+.part {
+  position: absolute;
+  background: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+}

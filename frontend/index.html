@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MotoTrack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>MotoTrack - Controle de Manutenção</h2>
+
+<div class="moto-container">
+ <div class="moto">
+  <img src="img/moto.png" class="moto-img">
+
+  <div class="part" style="top:60%;left:20%" onclick="selectPart('Pneu Dianteiro')">Pneu</div>
+  <div class="part" style="top:70%;left:50%" onclick="selectPart('Óleo do Motor')">Óleo</div>
+  <div class="part" style="top:60%;left:80%" onclick="selectPart('Freio')">Freio</div>
+</div>
+
+</div>
+
+<div id="info"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
