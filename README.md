@@ -1,5 +1,8 @@
 # MotoTrack – Controle de Manutenção de Motos
 
+![Descrição da imagem](docs/dashboard.png)
+
+
 MotoTrack é um sistema de controle de manutenção de motos, permitindo gerenciar peças, acompanhar o histórico de trocas e receber alertas quando uma peça precisa ser substituída. O projeto é ideal para entusiastas de motos, oficinas mecânicas e como portfólio de desenvolvimento fullstack.
 
 ---
